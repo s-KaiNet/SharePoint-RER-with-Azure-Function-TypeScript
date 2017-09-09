@@ -1,0 +1,16 @@
+<s:Envelope
+    xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ProcessEventResponse
+            xmlns="http://schemas.microsoft.com/sharepoint/remoteapp/">
+			<ProcessEventResult
+                xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<ChangedItemProperties
+                    xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+				<ErrorMessage>Wow that's not good!</ErrorMessage>
+				<RedirectUrl i:nil="true"/>
+				<Status>CancelWithError</Status>
+			</ProcessEventResult>
+		</ProcessEventResponse>
+	</s:Body>
+</s:Envelope>

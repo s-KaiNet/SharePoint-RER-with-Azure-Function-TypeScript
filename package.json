@@ -1,0 +1,25 @@
+{
+  "name": "rer-azure-func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "build": "tsc",
+    "az": "npm run build && func host start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tslint-config-standard": "^6.0.1",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^1.6.7",
+    "@types/xml2js": "^0.4.0",
+    "node-fetch": "^1.7.2",
+    "node-sp-auth": "^2.2.1",
+    "sp-pnp-js": "^2.0.8",
+    "xml2js": "^0.4.19"
+  }
+}
