@@ -86,7 +86,7 @@ async function processOneWayEvent(eventProperties: any, context: any): Promise<a
 }
 
 async function xml2Json(input: string): Promise<any> {
-    return await new Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         let parser = new Parser({
             explicitArray: false
         });

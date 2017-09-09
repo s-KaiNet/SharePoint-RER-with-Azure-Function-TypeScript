@@ -87,7 +87,7 @@ function processOneWayEvent(eventProperties, context) {
 }
 function xml2Json(input) {
     return __awaiter(this, void 0, void 0, function* () {
-        return yield new Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
             let parser = new xml2js_1.Parser({
                 explicitArray: false
             });
